@@ -1,3 +1,4 @@
+console.log('Извините, не успеваю, сделаю завтра');
 const buttonVideo = document.querySelector('.container_video_controls-icon-play');
 const buttonMainVideo = document.querySelector('.container_video-button');
 const buttonVolume = document.querySelector('.container_video_controls-icon-volume');
