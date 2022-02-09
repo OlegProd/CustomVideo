@@ -75,8 +75,3 @@ buttonMainVideo.addEventListener('click', () => {
     
 });
 
-// let pup = '0.' + this.value;
-// videoPlayer.volume = pup;
-// if (videoPlayer.volume === 0.0) {
-//     buttonVolume.style.backgroundImage = "url('assets/mute.svg')";
-// }
