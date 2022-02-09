@@ -65,7 +65,7 @@ background-color: black;
     background-position: center center;
     cursor: pointer;
     transition: 1s;
-    /* background-image: url(assets/video-bg.jpg); */
+    background-image: url(assets/video-bg.jpg);
     visibility: var(--visible);
 }
 .container_video-player{
