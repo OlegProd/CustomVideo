@@ -65,7 +65,7 @@ background-color: black;
     background-position: center center;
     cursor: pointer;
     transition: 1s;
-    background-image: url(assets/video-bg.jpg);
+    /* background-image: url(assets/video-bg.jpg); */
     visibility: var(--visible);
 }
 .container_video-player{
@@ -87,12 +87,13 @@ background-color: black;
     background-position:center ;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(assets/play.svg);
+    background-image: url(assets/pause.svg);
 }
 
 .video-height{
     width: calc(80% - 160px);
     appearance: none;
+    background: linear-gradient(to right, #bdae82 0%, #bdae82 35%, #c8c8c8 4%, #c8c8c8 100%);
     
 }
 
@@ -108,6 +109,7 @@ background-color: black;
 .music-height{
   width: calc(20% - 40px);
   appearance: none;
+  background: linear-gradient(to right, #bdae82 0%, #bdae82 40%, #c8c8c8 4%, #c8c8c8 100%);
 }
 
 .container_video-button{
@@ -165,3 +167,19 @@ footer{
 .github:hover, .rs-school:hover{
 color: #bdae82;
 }
+
+input[type=range]::-webkit-slider-runnable-track {
+    
+    height: 7px;
+}
+  input[type=range]::-webkit-slider-thumb {
+    background: #ecf0f1;
+    border-radius: 70%;
+    cursor: pointer;
+    width:15px;
+    height: 15px;
+    -webkit-appearance: none;
+    margin-top: -4px;
+  }
+
+  
